@@ -18,8 +18,10 @@ def get_max_with_many_arguments(*args):
 
 def get_max_with_one_or_more_arguments(first, *args):
     maximum = float('inf')
-    for a 
-
+    for a in (first,)+args:
+    	if a > maximum:
+    		maximum = a
+    return maximum
 
 def get_max_bounded(*args, low, high):
     pass
