@@ -10,8 +10,11 @@ def get_max_with_one_argument(a):
 
 
 def get_max_with_many_arguments(*args):
-    pass
-
+    maximum = float('inf')
+    for a in args:
+    	if a < maximum:
+    		maximum = a
+    return maximum
 
 def get_max_with_one_or_more_arguments(first, *args):
     pass
