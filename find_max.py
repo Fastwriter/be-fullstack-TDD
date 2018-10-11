@@ -33,7 +33,6 @@ def get_max_bounded(*args, low, high):
 def make_max(*, low, high):
     def inner(first, *args):
         maximum = 0
-
         for a in (first,)+args:
     		if a > maximum and low<a<high:
     			maximum = a
