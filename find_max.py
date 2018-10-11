@@ -2,7 +2,7 @@ def get_max(a, b):
     return a if a > b else b
 
 def get_max_without_arguments():
-    pass
+    raise TypeError('missed argument')
 
 
 def get_max_with_one_argument(a):
