@@ -1,7 +1,6 @@
 def get_max(a, b):
     pass
 
-
 def get_max_without_arguments():
     pass
 
